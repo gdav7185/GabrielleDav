@@ -1,0 +1,84 @@
+body{
+	background-image: url(https://64.media.tumblr.com/tumblr_m90waaPRoO1rc95too5_400.gifv);
+	background-color: #F8EDEB;
+}
+/* -------------------------------------------------------------------------- */
+/*                                INDEX - HOME                                */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   WELCOME                                  */
+/* -------------------------------------------------------------------------- */
+.welcome{
+	color: #fff;
+ 	position: absolute;
+ 	bottom: 10px;	
+ 	margin: 0px 0px 25px 25px;
+ }
+
+.welcome p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.welcome h1{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                NAV BAR                                     */
+/* -------------------------------------------------------------------------- */
+#menu{
+	float: right;
+	text-align: right;
+	margin: 10px 10px 0px 0px;
+}
+
+/* ------------------------------ unordered list ------------------------------ */
+#menu ul li {
+	list-style-type: none;
+	font-family: 'Amphi', sans-serif;
+	text-transform: uppercase;
+	font-size: 110px;
+	margin: 2;
+}
+
+/* ------------------------------ link effects ------------------------------ */
+#menu a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+  	position: relative;
+  	-webkit-transition: color 0.3s;
+}
+
+#menu a:after{
+	color: #E8A598;
+	content: '';
+ 	position: absolute;
+ 	left: 0;
+ 	display: inline-block;
+ 	height: 1em;
+ 	width: 100%;
+ 	border-bottom: 1px solid;
+ 	margin-top: 10px;
+ 	opacity: 0;
+ 	padding: 0px 0px 0px 0px;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+#menu a:hover:after{
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);	
+}
+
+#menu a:hover{
+	color: #E8A598;
+}

@@ -1,0 +1,24 @@
+@font-face{
+	font-family: Afterglow;
+	src: url(Afterglow-Regular.ttf);
+}
+
+@font-face{
+	font-family: Nunito Sans;
+	src: url(NunitoSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: Montserrat Bold;
+	src: url(Montserrat-Bold.ttf);
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url(Montserrat-Regular.ttf);
+}
+
+@font-face{
+	font-family: Amphi;
+	src: url(Amphi.otf);
+}
